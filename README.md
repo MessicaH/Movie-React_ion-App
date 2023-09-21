@@ -3,9 +3,14 @@
 ## Project Description
 - This app is designed to allow for users to search for movies and rate them on a 1-5 star rating scale.
 
+## To-Do Items
+- Update button and onClick functionality to route to a second page for ratings
+
+<details>
+  Additional Notes
+  
 ## Share a live URL
-- Whenever possible, remember to include a link to the live demo site in the README file.
-- Proving a live demo allows users to test your site/app’s functionality.
+- Remember to include a link to the live demo site in the README file.
 - Be sure to include any relevant login credentials or demo accounts.
 ### For example:
 Styling created using ChatGPT Assistant [Chat transcript](https://chat.openai.com/share/97a74e17-d44b-4b61-8d39-6d1005d0e82c)
@@ -40,3 +45,4 @@ Styling created using ChatGPT Assistant [Chat transcript](https://chat.openai.co
 - Even though this should be on your main GitHub profile page, you can add your email address, blog URL, or links to your social media profiles here as well.
 
 For other template ideas, check out: [https://github.com/Louis3797/awesome-readme-template/tree/main](https://github.com/Louis3797/awesome-readme-template/tree/main)
+</details>
