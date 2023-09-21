@@ -16,23 +16,26 @@ const MovieCard = (props) => {
 
             <div className="movieInfo">
                 <span className="title">{props.title}</span>
-                <span className="year">{props.release_date.split("/").reverse()}</span>
+                <span className="year">Release Date:<br/>{props.release_date.split("/").reverse()}</span>
             </div>
             <div className="movieRatings">
-                <span className="ratingText">Current Rating: </span><span className="currentRating">{props.vote_average}</span>
+                <span className="ratingText">Current TMDB Rating: </span><span className="currentRating">{props.vote_average}</span>
             </div>
 
             <div className="movieOverview">
                 <h5 className="titleOverview">Synopsis for <span className="title">{props.title}</span></h5>
                 <p className="synopsisOverview">{props.overview}</p>
                 <h6 className="ratingRequest">Already seen this movie?</h6>
-                <RatingCard/>
+                <button className="btn btn-info">React to this Movie</button>
             </div>
         </div>
     )
 }
 
 export default MovieCard;
+
+/* Now let's repurpose the Button for "Rate this Movie" to redirect to a second page/.js 
+where we can combine the RatingCard and RatingComments */
 
 
 /* How to get so that release_date only displays the YYYY and not MM/DD?

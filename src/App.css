@@ -80,9 +80,11 @@
  .searchButton {
   margin-left: 1rem;
   width: 100px;
+/*
   background-color: #61dafb;
   color:#282c34;
- }
+*/ 
+}
 
  .searchKeyword {
   width: 300px;
